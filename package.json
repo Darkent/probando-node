@@ -1,0 +1,26 @@
+{
+  "name": "probando-node",
+  "version": "1.0.0",
+  "description": "node para heroku",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkent/probando-node.git"
+  },
+  "author": "Darkent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darkent/probando-node/issues"
+  },
+  "homepage": "https://github.com/Darkent/probando-node#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
